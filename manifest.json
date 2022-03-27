@@ -1,0 +1,21 @@
+{
+	"manifest_version": 3,
+	"name": "GoShort",
+	"version": "1.0.0",
+	"description": "GoShort URL Shortener",
+	"icons": {
+		"16": "/images/favicon-16.png",
+		"48": "/images/favicon-48.png",
+		"128": "/images/favicon-128.png"
+	},
+	"permissions": [
+		"activeTab",
+		"tabs"
+	],
+	"action": {
+		"default_popup": "popup.html"
+	},
+	"host_permissions": [
+		"https://goshrt.herokuapp.com/*"
+	]
+}
